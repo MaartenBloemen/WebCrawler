@@ -4,7 +4,7 @@ import sqlite3
 
 class ScraperDatabaseManager:
     __SCRAPED_DB = 'scraper.db'
-    __SCRAPED_SCHEMA = 'scraped_schema.sql'
+    __SCRAPED_SCHEMA = 'scraper_schema.sql'
 
     def __init__(self):
         db_is_new = not os.path.exists(self.__SCRAPED_DB)
