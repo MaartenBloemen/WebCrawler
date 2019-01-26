@@ -205,3 +205,4 @@ dmypy.json
 
 # End of https://www.gitignore.io/api/python,jetbrains+all
 *.db
+*.db-journal
