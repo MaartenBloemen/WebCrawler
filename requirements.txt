@@ -1,3 +1,4 @@
 requests
 beautifulSoup4
 sqlite
+flask
